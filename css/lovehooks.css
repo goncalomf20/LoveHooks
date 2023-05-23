@@ -3,9 +3,10 @@
     color: #D20000;
 }
 
-.container {
-    
-    background: #fbeded;
+body {
+	background: #FF416C;
+    background: -webkit-linear-gradient(to right, #f78e7b, #ffbd9a);
+    background: linear-gradient(to right, #f78e7b, #ffbd9a);
 }
 
 

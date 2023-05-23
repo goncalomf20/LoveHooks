@@ -18,7 +18,9 @@
     position: relative;
     opacity: 0;
     transition: opacity 0.1s ease-in-out;
-    background: #fbeded;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #f78e7b, #ffbd9a);
+    background: linear-gradient(to right, #f78e7b, #ffbd9a);
   }
   
   .loaded.tinder {
@@ -100,6 +102,8 @@
     padding: 0 16px;
     text-align: left;
     pointer-events: none;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .tinder--card p {
